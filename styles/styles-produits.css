@@ -1,0 +1,18 @@
+body{
+  font-family:"Century Gothic", Calibri, serif;
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+}
+h1{ font-size: 40px;
+font-weight: normal;
+text-align: center;
+}
+h1{ color: rgb(1, 70, 1);}
+header{
+  height: 100px;
+}
+img{
+  width: 100px;
+  height: 100px;
+}

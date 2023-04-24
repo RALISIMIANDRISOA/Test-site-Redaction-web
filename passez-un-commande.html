@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page d'accueil de My Redac</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header>
+    <h1> <strong>MY REDACTION </strong></h1>
+    <img class="image1" src="images/logo-my-redac.png" alt="Notre logo"> <br>
+  </header>
+  
+  <nav>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="table">
+      <ul>
+        <li class="menu-acc">
+          <a href="accueil.html"> Accueil </a>
+        </li>
+        <li class="menu-qsn">
+          <a href="qui-somme-nous.html"> Qui sommes nous? </a>
+        </li>
+        <li class="menu-sce">
+          <a href="nos-services.html"> Nos services </a>
+        </li>
+        <li class="menu-cmd">
+          <a href="passez-un-commande.html"> Passez vos commandes </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <p> Pour passez un commande à notre service, il faut remplire le formulaire ci-dessous </p>
+    <form method="post" action="traitement.php">
+      <fieldset id="section1">
+        <label for="nom"> Entrez votre nom </label>
+        <input type="text" id="nom" name="nom"> <br>
+
+        <label for="prenom"> Entrez votre prénom</label>
+        <input type="text" id="prenom" name="prenom" required="required"><br>
+
+        <label for="naissance"> Votre date de naissance </label>
+        <input type="date" id="naissance" name="naissance"><br>
+
+        <label for="email"> Entrez votre adresse mail</label>
+        <input type="email" id="email" name="mail" required="required"><br>
+
+      </fieldset>
+      <input type="submit" value="Envoyer">
+      
+    </form>
+    <br><br>
+  <footer>
+    <p>Si vous avez besoin d'aide, n'hesiter pas à nous contacter sur +261 34 25 805 95 ou n'hesitez pas à m'envoyer un mail au <a href="mailo:rtlivatiana@gmail.com">CEO My Redac</pa>
+    </p>
+  </footer>
+</body>
+</body>
+</html>
